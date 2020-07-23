@@ -1,0 +1,155 @@
+ body{
+  background-color: #0c122c;
+
+
+}
+/* For text "Youve used so and so" - #dddbff */
+/* Greyish blue- #848794 */
+/* DarkBlue - #1d2c67 */
+
+
+.Bottombg img{
+  position: fixed;
+  top: 50%;
+}
+
+.MiddleContainer{
+  position:relative;
+  width: 100%;
+  margin-top:17%;
+}
+
+.MiddleContent{
+   margin-left:20%;
+}
+
+
+.Flo{
+  background-color:#1d2c67;
+  width:280px;
+  height:150px;
+  border-radius: 8px;
+  border-top-right-radius:70px;
+  display: inline-block;
+
+}
+
+.Icon{
+  padding:29px 0 0 30px;
+}
+table{
+  margin:5px 0 0 10px;
+  border-style: none;
+  border-spacing:15px;
+  text-align: center;
+}
+
+td{
+  background-color:#0c122c;
+  padding: 7px;
+  border-radius: 6px;
+}
+
+.Bar{
+  color:#dddbff;
+  position: absolute;
+  top:30px;
+  left:45%;
+  background-color:#1d2c67;
+  display: inline-block;
+  height: 106px;
+  width: 400px;
+  border-radius: 8px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 10px;
+  font-weight: 400;
+  text-align: left;
+  padding-left: 25px;
+  padding-top: 15px;
+
+}
+span{
+  font-weight: 700;
+}
+#MinLimit{
+  font-weight: 700;
+  font-family: 'Raleway', sans-serif;
+  font-size: 10px;
+  display:inline;
+  position: absolute;
+  top:55px;
+}
+
+#MaxLimit{
+  font-weight: 700;
+  font-family: 'Raleway', sans-serif;
+  font-size: 10px;
+  position:absolute;
+  top: 55px;
+  left:82%;
+}
+
+.BarContainer{
+  background-color:#0c122c;
+  width:90%;
+  height:10%;
+  border-radius: 10px;
+  padding:0.5%;
+
+}
+
+
+.BarProgress{
+  width:81.5%;
+  height:100%;
+  border-radius: 10px;
+  background-image: linear-gradient( to right,#FFD1CC, #FF4D97);
+  margin-bottom:1px;
+}
+
+.Circle{
+  width:8px;
+  height:8px;
+  border-radius: 100%;
+  background-color: #fff;
+  position:absolute;
+  top:50.1px;
+  left:73%;
+
+
+}
+
+.DialogueBox{
+  width:140px;
+  height:60px;
+  background-color: #fff;
+  color: #848794;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  text-align: center;
+  position: absolute;
+  top:35%;
+  left:65%;
+  font-family: 'Raleway', sans-serif;
+  font-weight:700;
+
+}
+.DialogueBox span{
+  color: #0c122c;
+  font-size: 30px;
+}
+.DialogueBox p{
+  font-size: 10px;
+}
+
+.Triangle{
+    width: 0;
+    height: 0;
+    border-top: 20px solid #fff;
+    border-left: 20px solid transparent;
+    position: absolute;
+    top:60px;
+    left:120px;
+
+}
